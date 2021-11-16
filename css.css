@@ -1,0 +1,29 @@
+
+
+html {
+  font-family:'Karla', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background-color: F5F5F5;
+}
+
+
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}

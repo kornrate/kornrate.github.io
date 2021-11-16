@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Common styles for all examples */
+.example {
+  margin: 50px 0;
+}
+
+.viewport {
+  max-width: 380px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  border: 2px solid #745c97;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.content {
+  width: 620px;
+  background: #f4dce5;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Example 2 */
+.example2 .viewport {
+  overflow: scroll;
+}
+
+/* Example 3 */
+.example3 .content {
+  width: 100%;
+}
+
+.example3 img {
+  margin-bottom: 10px;
+}
+
+/* Example 4 */
+.example4 .content {
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+
+.example4 .content-inner {
+  flex: 1 0 auto;
+  height: 100%;
+  background: #f4dce5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.example4 img {
+  max-height: 100%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.example4 img:last-child {
+  margin-right: 0;
+}
