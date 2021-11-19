@@ -53,7 +53,7 @@
       <ul class="navbar-nav justify-content-end">
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Home.html">work</a>
+          <a class="nav-link active" aria-current="page" href="index.html">work</a>
         </li>
 
         <li class="nav-item">
@@ -88,14 +88,14 @@
     <!--- PROJECT 1 -->
 
 
-    <div id="project" class="container">
+    <div id="project" class="container" id="ooca">
       <a class="link-primary" href="ooca.html">
 
         <div class="row align-items-center justify-content-center pt-2">        
         
           <div class="col-md-6  col-12">
-            <video id="thb" width="90%" loop="true" autoplay="autoplay" muted>
-            <source src="OOCA\Homepagescroll.mp4" type="video/mp4"></video>
+            <video id="thb" width="90%" loop="true" autoplay  muted>
+            <source src="OOCA\Homepagescroll.mp4" type="video/mp4" autoplay></video>
           </div>
         
           <div class="col pt-4">
@@ -203,4 +203,18 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   </body>
+
+  <script>
+    document.getElementById("ooca").onmouseover = function() {playvideo()};
+    document.getElementById("ooca").onmouseout = function() {pausevideo()};
+
+    function playvideo() {
+    document.getElementById("thb").this.play();  }
+
+    function pausevideo() {
+    document.getElementById("thb").this.pause();  }
+  </script>
+   
 </html>
+
+<!-- onmouseover="this.play()" onmouseout="this.pause();" -->
